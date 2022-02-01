@@ -1,11 +1,19 @@
 //import { home } from "./pages/Home.js";
 import { PersonPage } from "./pages/PersonPage.js";
+import { TopMenu } from "./pages/TopMenu.js";
 const local = window.location;
-var app = document.getElementById("app");
+
 //home();
 
-var pg = new PersonPage();
+var top = document.getElementById("top");
+top.appendChild(new TopMenu().create());
 
-const form = pg.createForm();
+var app = document.getElementById("app");
+app.appendChild(new PersonPage().createForm());
 
-app.appendChild(form);
+/*import { Jira } from "./api/Jira.js";
+
+const jira = new Jira();
+
+jira.connect();
+*/

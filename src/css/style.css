@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+
+#top {
+  height: 50px;
+
+  width: 100%;
+  background-color: rgb(188, 188, 189);
+}
+
+#middle {
+  float: left;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(195, 150, 224);
+}
+
+#bottom {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(188, 188, 189);
+}
+
+.menu_left {
+  float: left;
+  height: 100%;
+  width: 20%;
+  background-color: rgb(29, 24, 23);
+}
+
+.menu_left_close {
+  float: left;
+  height: 100%;
+  width: 50px;
+  background-color: rgb(29, 24, 23);
+}
+.page {
+  float: left;
+  height: 100%;
+  width: 80%;
+  position: right;
+  background-color: rgb(233, 230, 230);
+}
+
+.page_open {
+  height: 100%;
+  width: 100%;
+  position: right;
+  background-color: rgb(233, 230, 230);
+}
